@@ -1,11 +1,21 @@
 # Toast X
 ### JavaScript library for Toast messages, Alerts and Actionbars
 
+
+# Getting Started
+Installing Toast-X
 ```html
 <script src="https://xello.blue/toastx.js" defer></script>
 ```
+You can also import [Animate.css](<https://animate.style/>) for animations, use the following code:
+```html
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://xello.blue/toastx.js" defer></script>
+</head>
+```
 
-# Getting Started
+# Features
 ## 1. Toast Messages
 To display a toast message, use the following code:
 
