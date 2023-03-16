@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Tilt+Warp&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* 
+        ACTIONBAR
+*/
+
+.ACTIONBAR {
+    z-index: 400;
+    position: fixed;
+    bottom: 15px;
+    background-color: var(--background);
+    min-width: 10px;
+    border-radius: 5px;
+    color: var(--text);
+    padding: 10px;
+}
+
+.ACTIONBAR-IN {
+    animation: slideInUp;
+    animation-duration: .5s;
+}
+
+/*
+        ALERTS
+*/
+
+.ALERTX {
+    position: fixed;
+    z-index: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+
+    background-color: var(--background);
+    color: var(--text);
+    border-radius: 15px;
+    min-width: 100px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.ALERTX h1 {
+    font-family: 'Tilt Warp', cursive;
+}
+
+.ALERTX a {
+    text-decoration: none;
+    color: rgb(255, 75, 75);
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/*
+        TOASTS
+*/
+
+.TOASTX {
+    font-family: 'Cabin', sans-serif;
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+    font-size: 20px;
+
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+
+    z-index: 500;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+}
+
+.TOASTX-IN {
+    animation: slideInRight;
+    animation-duration: .5s;
+}
+
+.TOASTX-OUT {
+    animation: slideOutRight;
+    animation-duration: .5s;
+}
