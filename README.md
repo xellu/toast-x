@@ -36,6 +36,7 @@ You can customize the message of the actionbar and the time it appears on the sc
 # Example
 Here's an example of how to use Toast X in your website or application:
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,5 +50,6 @@ Here's an example of how to use Toast X in your website or application:
 	<button onclick="actionBar('Please wait...', 3)">Display Actionbar</button>
 </body>
 </html>
+```
 
 This code will display three buttons that, when clicked, will display a toast message, an alert box, and an actionbar, respectively.
