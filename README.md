@@ -15,7 +15,7 @@ toast('Hello, world!');
 
 You can also customize the color of the toast message and the time it appears on the screen (in seconds) using the optional arguments:
 ```js
-toast('Hello, world!', 'green', 3000);
+toast('Hello, world!', 'green', 3);
 ```
 
 ## 2. Alerts
@@ -29,7 +29,7 @@ You can customize the title and message of the alert box.
 ## 3. Actionbars
 To display an actionbar, use the following code:
 ```js
-actionBar('Please wait...', 5000);
+actionBar('Please wait...', 5);
 ```
 You can customize the message of the actionbar and the time it appears on the screen (in seconds) using the optional argument.
 
